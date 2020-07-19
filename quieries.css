@@ -1,0 +1,43 @@
+
+@media(max-width: 576px){
+    .title{
+        height: 1rem;
+    }
+   .h4{
+       font-size: 0.25rem;
+   }
+}
+
+
+@media (min-width: 576px) {
+    .title{
+        height: 1rem;
+    }
+   .h4{
+       font-size: 0.025rem;
+   }
+}
+@media (min-width: 768px) {
+    .title{
+        height: 1rem;
+    }
+    h4{
+        font-size: 0.25rem;
+    }
+}
+@media (min-width: 992px) {
+    .title{
+        height: 1rem;
+    }
+    h4{
+        font-size: 0.25rem;
+    }
+}
+@media (min-width: 1200px) {
+    .title{
+        height: 1rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+}
