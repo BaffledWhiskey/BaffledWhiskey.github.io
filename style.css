@@ -20,10 +20,9 @@ html{
     position: relative; 
     width: 100%; /* for IE 6 */
     display: inline-block;
-    object-fit: fill;
-
-    
+    object-fit: fill;  
 }
+
  
 .title { 
     position: absolute; 
@@ -65,7 +64,7 @@ html{
 
 .imgCont{
     text-align: center;
-    padding-bottom: 2rem;
+    
 }
 
 
