@@ -124,6 +124,9 @@ html{
     h4{
         font-size: 0.6rem;
     }
+    .navbar{
+        height: 20px;
+    }
     
 }
 @media (min-width: 1200px) {
