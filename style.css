@@ -107,6 +107,9 @@ html{
    .mainText p{
         font-size: 0.9rem;
    }
+   .timeSince{
+       font-size: 0.7rem;
+   }
 }
 
 @media (min-width: 576px) {
