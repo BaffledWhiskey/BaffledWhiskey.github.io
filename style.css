@@ -92,6 +92,14 @@ html{
    .recommended-subtitle{
        font-size: 1.5rem;
    }
+
+   .myCard p{
+       font-size: 0.8rem;
+   }
+
+   .myCard h3{
+       font-size: 0.9rem;
+   }
 }
 
 @media (min-width: 576px) {
@@ -104,6 +112,13 @@ html{
    footer{
        height: 560px;
    }
+   .myCard p{
+    font-size: 0.7rem;
+}
+.myCard h3{
+    font-size: 1rem;
+}
+ 
 }
 @media (min-width: 768px) {
     .title{
@@ -114,6 +129,13 @@ html{
     }
     footer{
         height:300px;
+    }
+    .myCard p{
+        font-size: 1rem;
+    }
+
+    .myCard h3{
+        font-size: 1.5rem;
     }
     
 }
