@@ -98,7 +98,8 @@
 
         <p>
             Ok now we've got that out of the way we can start writing some code! Head to <a href="https://www.pythonanywhere.com/try-ipython/" target="_blank">
-            IPython</a>. This will give you a browser interpreter to run some basic Python in, it should look like this:<br>
+            IPython</a>. This will give you a browser interpreter (a live environment to run code in) to run some basic Python in, 
+            it should look like this:<br>
     
         </p>
 
@@ -127,7 +128,8 @@
             In order to create a variable in Python, you must first come up with a name for it, in my example below I use <var>a</var>,
             <var>b</var>, and <var>c</var> as my variable names. You must then follow that name with a single equals sign and then follow 
             that equals sign with the value you want to give that variable. This value can be absolutely anything. One thing to note about 
-            variable names is that they cannot begin with a number - this will result in a syntax error.
+            variable names is that they cannot begin with a number - this will result in a syntax error (syntax is essentially word order, 
+            spelling, and grammar - in programming it can also refer to things that aren't allowed such as this).
         </p>
 
         <div class="codeBlock">
@@ -153,9 +155,11 @@
 
         <div class="codeBlock">
         <samp>TypeError: can only concatenate str (not "int") to str</samp>
-        </div><br>
+        </div>
 
         <p>
+            (str is short for string and int is short for integer - string being a word/sentence and integer being a whole number)<br><br>
+
             This simply means that you can't combine a word and an integer in a meaningful way - in order to get around this they need to be of 
             the same type, whether that be them both being ints or both being strings (a string is fancy programmer talk for a word/sentence).
             It is possible to convert between types and it is possible to have an integer or decimal number represented as a string variable but 
@@ -163,7 +167,7 @@
 
             Variables are inherantly designed to be manipulated and changed, they dont have the name VARiables for no reason. As such you should 
             only use variables if you intend on reusing data or if you want to collect data from a function or other such data producer (functions 
-            will be covered in a later blog post don't worry). An example of such a use case would be summing a list of values, maybe you don't 
+            will be covered in a later blog post don't worry). An example of such a use case would be adding a list of values together, maybe you don't 
             have all the numbers at your disposal right away and as such you'll want to store a running total in a variable so that you can keep 
             track of it.<br><br>
 
