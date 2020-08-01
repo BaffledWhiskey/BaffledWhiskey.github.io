@@ -181,6 +181,9 @@ a:hover{
     .codeBlock{
         font-size: 1rem;
     }
+    .codeBlocksm{
+        font-size: 0.8rem;
+    }
  
 }
 @media (min-width: 768px) {
@@ -218,7 +221,10 @@ a:hover{
     .navbar{
         height: 20px;
     }
-    .codeBlock code{
+    .codeBlock{
+        font-size: 1rem;
+    }
+    .codeBlocksm{
         font-size: 1rem;
     }
     
