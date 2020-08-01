@@ -97,6 +97,10 @@ a:hover{
     font-weight: bold;
 }
 
+.mainText h4{
+    font-size: 1rem;
+}
+
 @media(max-width: 576px){
     .title{
         height: 3rem;
