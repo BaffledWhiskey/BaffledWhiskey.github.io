@@ -87,6 +87,15 @@ pre {
     margin-left: 5%;
    }
 
+a {
+    color: #ff7b00;
+    font-weight: bold;
+    
+}
+a:hover{
+    color: #ff7b00;
+    font-weight: bold;
+}
 
 @media(max-width: 576px){
     .title{
@@ -115,6 +124,9 @@ pre {
 
    .mainText p{
         font-size: 0.9rem;
+   }
+   .mainText li{
+       font-size: 0.9rem;
    }
    .timeSince{
        font-size: 0.7rem;
@@ -148,6 +160,9 @@ pre {
     }
 
     .mainText p{
+        font-size: 1rem;
+    }
+    .mainText li{
         font-size: 1rem;
     }
     .graphImg img{
