@@ -1,0 +1,18 @@
+---
+layout: blogpost
+title: test
+---
+
+
+
+
+
+<ul>
+    {% for tut in site.AnyoneCanCode %}
+      <li>
+        <h2>{{ tut.name }}</h2>
+        <h3>{{ tut.position }}</h3>
+        <p>{{ tut.content | markdownify }}</p>
+      </li>
+    {% endfor %}
+  </ul>

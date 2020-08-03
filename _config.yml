@@ -1,1 +1,18 @@
-theme: jekyll-theme-slate
+name: Molybdenum
+
+collections:
+  AnyoneCanCode:
+    output: true
+    permalink: /articles/:collection/:path/
+
+  currentAffairs:
+    output: true
+    permalink: /articles/:collection/:path/
+
+  opinion:
+    output: true
+    permalink: /articles/:collection/:path/
+
+  science:
+    output: true
+    permalink: /articles/:collection/:path/

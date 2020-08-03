@@ -1,0 +1,263 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.mainPage{
+    margin: 1em;
+    position: relative;
+    min-height: calc(100vh - 300px);
+}
+
+
+.imageScaled{
+    max-height: 17.5rem;
+    width: auto;
+    object-fit: fill;
+}
+
+.imageText { 
+    position: relative; 
+    width: 100%; /* for IE 6 */
+    display: inline-block;
+    object-fit: fill;  
+}
+
+ 
+.title { 
+    position: absolute; 
+    bottom: 0%; 
+    left: 0%;
+    
+    width: 100%; 
+    background-color: #f7f7f9;
+    opacity: 80%;
+    
+ }
+
+ h4{
+     color: #111111;
+     padding-top: 1%;
+     
+     
+     
+ }
+ 
+ .padding{
+     padding-bottom: 2rem;
+ }
+
+ footer{
+    background-color: #f7f7f9;
+    color: #d5d5d5;
+    padding-top: 2rem;
+    
+    height: 300px;
+  }
+
+  
+
+
+.cropped img{
+    margin: -100px 0px 0px -100px;
+}
+
+.imgCont{
+    text-align: center;
+    
+}
+
+
+.mainText{
+    font-size: large;
+}
+
+.recommended-subtitle{
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+pre {
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    margin-left: 5%;
+   }
+
+a {
+    color: #ff7b00;
+    font-weight: bold;
+    
+}
+a:hover{
+    color: #ff7b00;
+    font-weight: bold;
+}
+
+.mainText h4{
+    font-size: 1rem;
+}
+
+@media(max-width: 576px){
+    .title{
+        height: 3rem;
+    }
+   h4{
+       font-size: 0.75rem;
+   }
+   footer{
+       height: 600px;
+   }
+   .recommended-subtitle{
+       font-size: 1.5rem;
+   }
+
+   .myCard p{
+       font-size: 0.8rem;
+   }
+
+   .myCard h3{
+       font-size: 0.9rem;
+   }
+   .blogTitle h3{
+       font-size: 0.8rem;
+   }
+
+   .mainText p{
+        font-size: 0.9rem;
+   }
+   .mainText li{
+       font-size: 0.9rem;
+   }
+   .timeSince{
+       font-size: 0.7rem;
+   }
+   .graphImg img{
+       width: 100%;
+   }
+   .codeBlock{
+       font-size: 0.6rem;
+   }
+   .codeBlocksm{
+       font-size: 0.5rem;
+   }
+   .codeBlocksm pre{
+       margin-left: 0%;
+   }
+}
+
+@media (min-width: 576px) {
+    .title{
+        height: 2rem;
+    }
+   h4{
+       font-size: 0.55rem;
+   }
+   footer{
+       height: 560px;
+   }
+   .myCard p{
+    font-size: 0.7rem;
+    }
+    .myCard h3{
+        font-size: 1rem;
+    }
+    .blogTitle h3{
+        font-size: 1.2rem;
+    }
+
+    .mainText p{
+        font-size: 1rem;
+    }
+    .mainText li{
+        font-size: 1rem;
+    }
+    .graphImg img{
+        width: 100%;
+    }
+    .codeBlock{
+        font-size: 1rem;
+    }
+    .codeBlocksm{
+        font-size: 0.8rem;
+    }
+ 
+}
+@media (min-width: 768px) {
+    .title{
+        height: 2rem;
+    }
+    h4{
+        font-size: 0.5rem;
+    }
+    footer{
+        height:300px;
+    }
+    .myCard p{
+        font-size: 1rem;
+    }
+
+    .myCard h3{
+        font-size: 1.5rem;
+    }
+    .graphImg img{
+        width: 70%;
+    }
+    .codeBlock{
+        font-size: 1rem;
+    }
+    
+}
+@media (min-width: 992px) {
+    .title{
+        height: 2rem;
+    }
+    h4{
+        font-size: 0.6rem;
+    }
+    .navbar{
+        height: 20px;
+    }
+    .codeBlock{
+        font-size: 1rem;
+    }
+    .codeBlocksm{
+        font-size: 1rem;
+    }
+    
+}
+@media (min-width: 1200px) {
+    .title{
+        height: 3rem;
+    }
+    h4{
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
+
+
+
+
+.hvr-grow-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+  }
+  .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
