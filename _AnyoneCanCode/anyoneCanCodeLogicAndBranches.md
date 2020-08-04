@@ -1,6 +1,6 @@
 ---
 layout: blogpost
-title: "Anyone Can Code Learn the Basics: Setup and Variables"
+title: "Anyone Can Code Learn the Basics: Logic and Branches"
 url: /articles/AnyoneCanCode/
 imageurl: chris-ried-ieic5Tq8YMk-unsplash-min.jpg
 imageAuthorLink: https://unsplash.com/@cdr6934

@@ -1,9 +1,7 @@
 ---
-title: topics
+title: "Topics - "
 layout: default
 ---
-
-<div class="mainPage">
 
 
 <div class="container-fluid padding">
@@ -88,6 +86,5 @@ layout: default
                     </a>
                 </div>
                 
-</div>
 </div>
 </div>

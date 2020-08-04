@@ -1,0 +1,42 @@
+I"6
+<div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="imageText padding">
+                <a href="/articles/AnyoneCanCode/anyoneCanCodeSetupAndVariables/" class="hvr-grow-shadow">
+                <img src="assets/chris-ried-ieic5Tq8YMk-unsplash-min.jpg" class="img-fluid" />
+                <span class="title"><h4>Anyone Can Code Learn the Basics: Setup and Variables</h4></span>
+                </a>
+            </div>
+                    
+</div>
+</div>
+
+<div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="imageText padding">
+                <a href="/articles/AnyoneCanCode/anyoneCanCodeLogicAndBranches/" class="hvr-grow-shadow">
+                <img src="assets/chris-ried-ieic5Tq8YMk-unsplash-min.jpg" class="img-fluid" />
+                <span class="title"><h4>Anyone Can Code Learn the Basics: Logic and Branches</h4></span>
+                </a>
+            </div>
+                    
+</div>
+</div>
+
+<div class="myCard">
+        <div class="container-fluid padding col-xl-6 col-lg-8 col-md-12 col-sm-9 col-xs-12" style="float: left;">
+          <img class="img-fluid rounded-edges" src="../../../assets/fake news.jpg" style="max-height: 100px; max-width: 100px; float: left; vertical-align:middle; padding-right: 0.5rem;" loading="lazy" /> 
+          <a href=""><h3><strong>‘Context is all’- an Atwood quote for more than just literature snobs</strong></h3></a>
+          <p></p>
+        </div>
+        </div>
+
+<div class="myCard">
+        <div class="container-fluid padding col-xl-6 col-lg-8 col-md-12 col-sm-9 col-xs-12" style="float: left;">
+          <img class="img-fluid rounded-edges" src="../../../assets/guidebooks-1425706.jpg" style="max-height: 100px; max-width: 100px; float: left; vertical-align:middle; padding-right: 0.5rem;" loading="lazy" /> 
+          <a href=""><h3><strong>Parlez-vous français ? Sprechen Sie Deutsch ? ¿Habla español? Of course you don’t- you’re English!</strong></h3></a>
+          <p></p>
+        </div>
+        </div>
+
+:ET

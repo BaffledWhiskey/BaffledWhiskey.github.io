@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>topicsMolybdenum</title>
+    <title>Topics - Molybdenum</title>
     <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -32,9 +32,17 @@
         <li class="nav-item">
           <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/topics">Topics</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Topics</a>
+          <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 37px, 0px); top: 0px; left: 0px; will-change: transform;">
+            <a class="dropdown-item" href="/science">Science</a>
+            <a class="dropdown-item" href="/opinion">Opinion</a>
+            <a class="dropdown-item" href="/currentAffairs">Current Affairs</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="/AnyoneCanCode">Anyone Can Code</a>
+          </div>
         </li>
+
         <li class="nav-item">
           <a class="nav-link" href="/writers">Writers</a>
         </li>
@@ -47,17 +55,9 @@
     </div>
   </nav>
           
-<!--- Remove this at a later date --->
-<div class="alert alert-dismissible alert-warning fixed-bottom">
-    <button type="button" class="close" data-dismiss="alert">&times;</button>
-    <h4 class="alert-heading">Hey There!</h4>
-    <p class="mb-0">We have just moved over to a Jekyll framework - this is great for writing and automating but the switch may have broken a couple links and stuckafewwordstogether, if you notice any of this let me know, thanks :)</p>
-  </div>
 
-        <div class="mainPage">
-
-
-<div class="container-fluid padding">
+  <div class="mainPage">
+        <div class="container-fluid padding">
             <h2>Science</h2>
             <div class="row text-center padding">
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -71,11 +71,6 @@
 </div>
 </div>
 </div>
-
-        
-
-        
-            
 
 <div class="container-fluid padding">
                 <h2>Opinion</h2>
@@ -118,7 +113,7 @@
 </div>
 </div>
 
-</div>
+<p>&lt;/div&gt;</p>
 
 <div class="container-fluid padding">
             <h2>Anyone Can Code</h2>
@@ -143,7 +138,7 @@
 </div>
 </div>
 
-
+    </div>
 
         <footer id="Footer">
     <div class="container-fluid padding">
