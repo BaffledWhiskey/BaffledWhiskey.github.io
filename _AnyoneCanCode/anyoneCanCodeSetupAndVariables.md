@@ -33,6 +33,7 @@ The black window on the right side of the page is the interpreter, this is where
 
 The language we will be programming in is Python (specifically Python 3). My rationale behind this is that it is easy to learn (as programming languages go), it does a lot of work for you (that you will appreciate greatly if you go on to learn more languages), and it has a very strong and active community, so it's easy to find help.
 
+<br>
 <h5>Variables</h5>
 
 Variables are key to programming, they allow us to store and read data. Put simply they're very similar to a bucket with a label, you can put whatever you like in that bucket - whether that be a word, a sentence, a number or a shopping list. The label is the name you give to that collection of data stored in your bucket, this allows you to differentiate between different data items and manipulate them. For example, if you have two variables that are numbers you can add them together to get another number (this however wouldn't work if one of those variables were a word... adding numbers and words together doesn't make a lot of sense).
@@ -50,7 +51,7 @@ In order to create a variable in Python, you must first come up with a name for 
 
 Try typing each line of this into IPython one by one (press <kbd>Enter</kbd> after each line). To find the value of any variable, type its name and hit <kbd>Enter</kbd> - its value should then show up underneath with a red <span style="color: red;">Out</span> to its left. Hopefully, if you've been following well enough you should get the same result as me.
 
-You may have noticed that this is very similar to GCSE algebra, where a variable is simply a label put on a number - only difference in programming is that variables can represent words, lists and a whole host of other things too. The "type" of data is quite significant, as you can imagine confusing a word with a number would be problematic. Luckliy Python handles most of this for you (one of the reasons I chose this as a good introductory langauge), this means that the only times you'll really run into problems with types is when your program throws you an error - such as:
+You may have noticed that this is very similar to GCSE algebra, where a variable is simply a label put on a number - only difference in programming is that variables can represent words, lists and a whole host of other things too. The "type" of data is quite significant, as you can imagine confusing a word with a number would be problematic. Luckliy Python handles most of this for you (one of the reasons I chose this as a good introductory language), this means that the only times you'll really run into problems with types is when your program throws you an error - such as:
 
 <div class="codeBlock">
 <samp>TypeError: can only concatenate str (not "int") to str</samp>
@@ -62,4 +63,4 @@ This simply means that you can't combine a word and an integer in a meaningful w
 
 Variables are inherantly designed to be manipulated and changed, they dont have the name VARiables for no reason. As such you should only use variables if you intend on reusing data or if you want to collect data from a function or other such data producer (functions will be covered in a later blog post don't worry). An example of such a use case would be adding a list of values together, maybe you don't have all the numbers at your disposal right away and as such you'll want to store a running total in a variable so that you can keep track of it.
 
-I hope you haven't found this too challenging or too convoluted, I wanted to give enough of an explanation in order for this to actually mean something to you without going overboard. If you feel I haven't struck the balance right or would like some more help understanding send me an email (check the footer) and I'll hopefully be able to help you. I aim to get the next blog post in this series out in less than a weeks time so stay tuned!
+I hope you haven't found this too challenging or too convoluted, I wanted to give enough of an explanation in order for this to actually mean something to you without going overboard. If you feel I haven't struck the balance right or would like some more help understanding send me an email (check the footer) and I'll hopefully be able to help you. I aim to get the next blog post in this series out in less than a week's time so stay tuned!
