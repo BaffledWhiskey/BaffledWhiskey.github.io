@@ -13,6 +13,7 @@ author: Mary Stenson
 authorDescription: Putting my overthinking in writing and calling it journalism
 authorImageLink: maryProfile-circle.jpg
 date: "2020-07-21T22:25:00"
+tags: [Fake News, Research, Facts and Figures]
 ---
 
 

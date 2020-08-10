@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta property="og:image" content="thought-catalog-fnztlIb52gU-unsplash-min.jpg"/>
+  <meta property="og:image" content="/assets/thought-catalog-fnztlIb52gU-unsplash-min.jpg"/>
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Calorie counting- Boris’ Stone Age solution to the obesity crisis - Molybdenum</title>
-    <link rel="stylesheet" href="../../../bootstrap-4.5.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/bootstrap-4.5.0-dist/css/bootstrap.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <link href="../../../style.css" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/44381eb229.js" crossorigin="anonymous"></script>
 
     <meta name="google-site-verification" content="cnUWoZCeGK0DsZFaLnYQG7M3dc0hbLqSjY3ZG9X9Mt0" />
 
-    <link rel="icon" href="../../../assets/molybdenumM.png">
+    <link rel="icon" href="/assets/molybdenumM.png">
     
 
 </head>
@@ -66,7 +68,7 @@
               <div class="col-xs-12 col-sm-12 col-md-8">
                 
         <div class="imgCont padding">
-        <img src="../../../assets/thought-catalog-fnztlIb52gU-unsplash-min.jpg" style='height: auto; width: 90%; object-fit: contain' loading="eager">
+        <img src="/assets/thought-catalog-fnztlIb52gU-unsplash-min.jpg" style='height: auto; width: 90%; object-fit: contain' loading="eager">
         <div>
         <span>Photo by <a href="https://unsplash.com/@thoughtcatalog?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Thought Catalog</a> on 
             <a href="https://unsplash.com/s/photos/diet?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
@@ -85,13 +87,42 @@
 
     <div class="myCard">
         <div class="container-fluid padding col-xl-6 col-lg-8 col-md-12 col-sm-9 col-xs-12" style="float: left;">
-          <img class="img-fluid rounded-circle" src="../../../assets/maryProfile-circle.jpg" style="max-height: 100px; max-width: 100px; float: left; vertical-align:middle; padding-right: 0.5rem;" loading="lazy"> 
+          <img class="img-fluid rounded-circle" src="/assets/maryProfile-circle.jpg" style="max-height: 100px; max-width: 100px; float: left; vertical-align:middle; padding-right: 0.5rem;" loading="lazy"> 
           <h3><strong>Mary Stenson</strong></h3>
           <p>Putting my overthinking in writing and calling it journalism</p>
         </div><br>
         </div>
 
+        <div class="shareSection padding" style="float: left;">
+
+          <div class="container-fluid padding">
+            
+
+            <span class="badge badge-pill badge-info">Politics</span>
+
+            
+
+            <span class="badge badge-pill badge-info">Food</span>
+
+            
+          </div>
+          <div class="container-fluid padding">
+            
+            <a class="twitterLink"
+              href="https://twitter.com/share?url=&text=Check out this blog post from Molybdenum: ">
+              <i class="fab fa-twitter fa-3x"></i></a>
+
+            
+            <a class="facebookLink" href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
+              <i class="fab fa-facebook fa-3x"></i>
+            </a>
+            
+          </div>
+        </div>
+
         <div class="mainText" style="float: left;">
+
+          
 
         <!--- dateCreated must be of the format YYYY-MM-DDThh:mm:ss --->
 
@@ -153,8 +184,9 @@
         </div>
     </div>
 
-</div>
-<div class="col-xs-0 col-sm-0 col-md-2"></div>
+
+    <div class="col-xs-12 col-sm-12 col-md-2"></div>
+  </div>
 </div>
 </div>
    
@@ -227,11 +259,12 @@ return Math.floor(seconds) + " seconds";
 var aDay = 24*60*60*1000;
 
 function findTimeSince(){
-
-var date = new Date("2020-08-01 14:35:00 +0100");
-document.getElementById('timeSince').innerText = timeSince(date)+" ago";
-
-
+    var date = new Date("2020-08-01 14:35:00 +0100");
+    if(timeSince(date) == "NaN"){
+      return;
+    }
+    document.getElementById('timeSince').innerText = timeSince(date)+" ago";
+    return;
 
 }
 

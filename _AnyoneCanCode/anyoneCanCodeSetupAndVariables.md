@@ -13,6 +13,7 @@ author: Max Lloyd
 authorDescription: Writes in mostly formal languages but occasionally likes to dabble with the informal
 authorImageLink: "IMG_1045-circle.jpg"
 date: "2020-07-29T16:32:00"
+tags: [Python, Programming, Code, Easy]
 ---
 
 Programming is a skill integral to the modern world, pretty much everything we use today has some form of computer chip in it. From microwave ovens to data centers, software is key to making these things run smoothly. This series is meant to be an introduction to programming for those who have no prior experience - veterans you should probably go elsewhere.

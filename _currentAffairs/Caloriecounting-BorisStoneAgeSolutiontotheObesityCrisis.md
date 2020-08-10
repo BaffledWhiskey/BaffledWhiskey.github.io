@@ -13,6 +13,7 @@ author: Mary Stenson
 authorDescription: Putting my overthinking in writing and calling it journalism
 authorImageLink: maryProfile-circle.jpg
 date: "2020-08-01T14:35:00"
+tags: [Politics, Food]
 ---
 <!--- dateCreated must be of the format YYYY-MM-DDThh:mm:ss --->
 

@@ -14,6 +14,7 @@ authorDescription: Writes in mostly formal languages but occasionally likes to d
 authorImageLink: "IMG_1045-circle.jpg"
 date: "2020-07-20T21:31:00"
 desc: "Nuclear Energy has almost become synonymous with danger and disease due to popular television shows such as"
+tags: [Nuclear, Green Energy, Climate Change]
 ---
 
 Nuclear Energy has almost become synonymous with danger and disease due to popular television shows such as HBO's <a href="https://www.youtube.com/watch?v=s9APLXM9Ei8">Chernobyl</a>. If you were to judge nuclear energy purely on the perspectiveof these shows, you would probably think that nuclear power is a really bad idea and we should just demolish all nuclear plants right away. I wish instead to demolish your potential misconseptions on the topic... Not demolish any reactors.

@@ -87,15 +87,42 @@ pre {
     margin-left: 5%;
    }
 
-a {
-    color: #ff7b00;
-    font-weight: bold;
-    
-}
-a:hover{
+.mainText a {
     color: #ff7b00;
     font-weight: bold;
 }
+.mainText a:hover{
+    color: #ff7b00;
+    font-weight: bold;
+}
+
+.imgCont a{
+    color: #ff7b00;
+    font-weight: bold;
+}
+.imgCont a:hover{
+    color: #ff7b00;
+    font-weight: bold;
+}
+
+.facebookLink{
+    color: #4287f5;
+}
+.facebookLink:hover{
+    color: #2964c2;
+}
+
+.twitterLink{
+    color: #00acee;
+}
+.twitterLink:hover{
+    color: #00b8ff;
+}
+
+.badge-info{
+    background-color: #ff7b00;
+}
+
 
 .mainText h4{
     font-size: 1rem;

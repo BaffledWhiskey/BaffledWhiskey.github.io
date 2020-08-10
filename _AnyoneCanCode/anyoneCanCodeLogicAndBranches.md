@@ -13,6 +13,7 @@ author: Max Lloyd
 authorDescription: Writes in mostly formal languages but occasionally likes to dabble with the informal
 authorImageLink: "IMG_1045-circle.jpg"
 date: "2020-08-01T14:32:00"
+tags: [Python, Logic, Programming]
 ---
 
 

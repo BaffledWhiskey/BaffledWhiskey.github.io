@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta property="og:image" content="chris-ried-ieic5Tq8YMk-unsplash-min.jpg"/>
+  <meta property="og:image" content="/assets/chris-ried-ieic5Tq8YMk-unsplash-min.jpg"/>
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Anyone Can Code Learn the Basics: Logic and Branches - Molybdenum</title>
-    <link rel="stylesheet" href="../../../bootstrap-4.5.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/bootstrap-4.5.0-dist/css/bootstrap.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <link href="../../../style.css" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/44381eb229.js" crossorigin="anonymous"></script>
 
     <meta name="google-site-verification" content="cnUWoZCeGK0DsZFaLnYQG7M3dc0hbLqSjY3ZG9X9Mt0" />
 
-    <link rel="icon" href="../../../assets/molybdenumM.png">
+    <link rel="icon" href="/assets/molybdenumM.png">
     
 
 </head>
@@ -66,7 +68,7 @@
               <div class="col-xs-12 col-sm-12 col-md-8">
                 
         <div class="imgCont padding">
-        <img src="../../../assets/chris-ried-ieic5Tq8YMk-unsplash-min.jpg" style='height: auto; width: 90%; object-fit: contain' loading="eager">
+        <img src="/assets/chris-ried-ieic5Tq8YMk-unsplash-min.jpg" style='height: auto; width: 90%; object-fit: contain' loading="eager">
         <div>
         <span>Photo by <a href="https://unsplash.com/@cdr6934">Chris Ried</a> on 
             <a href="https://unsplash.com/photos/ieic5Tq8YMk">Unsplash</a></span>
@@ -85,13 +87,46 @@
 
     <div class="myCard">
         <div class="container-fluid padding col-xl-6 col-lg-8 col-md-12 col-sm-9 col-xs-12" style="float: left;">
-          <img class="img-fluid rounded-circle" src="../../../assets/IMG_1045-circle.jpg" style="max-height: 100px; max-width: 100px; float: left; vertical-align:middle; padding-right: 0.5rem;" loading="lazy"> 
+          <img class="img-fluid rounded-circle" src="/assets/IMG_1045-circle.jpg" style="max-height: 100px; max-width: 100px; float: left; vertical-align:middle; padding-right: 0.5rem;" loading="lazy"> 
           <h3><strong>Max Lloyd</strong></h3>
           <p>Writes in mostly formal languages but occasionally likes to dabble with the informal</p>
         </div><br>
         </div>
 
+        <div class="shareSection padding" style="float: left;">
+
+          <div class="container-fluid padding">
+            
+
+            <span class="badge badge-pill badge-info">Python</span>
+
+            
+
+            <span class="badge badge-pill badge-info">Logic</span>
+
+            
+
+            <span class="badge badge-pill badge-info">Programming</span>
+
+            
+          </div>
+          <div class="container-fluid padding">
+            
+            <a class="twitterLink"
+              href="https://twitter.com/share?url=&text=Check out this blog post from Molybdenum: ">
+              <i class="fab fa-twitter fa-3x"></i></a>
+
+            
+            <a class="facebookLink" href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">
+              <i class="fab fa-facebook fa-3x"></i>
+            </a>
+            
+          </div>
+        </div>
+
         <div class="mainText" style="float: left;">
+
+          
 
         <p>For anyone unaware, this is part 2 in an introductory series in the basics of programming - if you haven’t already I’d strongly reccomend <a href="../anyoneCanCodeSetupAndVariables">going back and reading the previous blog post here</a>…
 For the rest of you, let us continue.</p>
@@ -101,7 +136,7 @@ For the rest of you, let us continue.</p>
 <p><br /></p>
 <h4>Logic for Computers</h4>
 
-<p>Computers are fundamentally logic machines, they deal entirely in 1’s and 0’s (otherwise interpreted as Trues and Falses). That is to say that <code>1 == True</code> and <code>0 == False</code> (I will explain my use of double equals later - for now it means: the same as). In order to make something capable of doing anything with these two very basic things (True and False), we must have operators over these things that allow us to manipulate them. What is an operator? An operator in the logical context is exactly the same as an operator for a number, the number operators are: + = &amp;times &amp;divide etc. These operators are binary - that is they affect two numbers at once (you may be able to write the sum 1+2+3 but thats technically (1+2)+3 i.e. you add 1 and 2 first and then add that result to 3).</p>
+<p>Computers are fundamentally logic machines, they deal entirely in 1’s and 0’s (otherwise interpreted as Trues and Falses). That is to say that <code>1 == True</code> and <code>0 == False</code> (I will explain my use of double equals later - for now it means: the same as). In order to make something capable of doing anything with these two very basic things (True and False), we must have operators over these things that allow us to manipulate them. What is an operator? An operator in the logical context is exactly the same as an operator for a number, the number operators are: + = × ÷ etc. These operators are binary - that is they affect two numbers at once (you may be able to write the sum 1+2+3 but thats technically (1+2)+3 i.e. you add 1 and 2 first and then add that result to 3).</p>
 
 <p>Ok now you understand what an operator is, I can tell you what some of the logical operators are. You will only need 3 to do every logical operation possible - there are more but they’re essentially just there for easy reading and are not needed for this guide. The ones we are interested in are AND, OR, and NOT, these each do different things to our Trues and Falses.</p>
 
@@ -120,7 +155,7 @@ For the rest of you, let us continue.</p>
 </pre>
 </div>
 
-<p>Try heading to <a href="https://www.pythonanywhere.com/try-ipython/" target="_blank">IPython</a> again and messing around with True and False. Before you go however I’ll need to tell you how to do this in Python. In Python you must type True exactly like I just have, i.e. it must have a capital T, False must also have a capital F. Furthermore, in this guide I have and will continue to capitalise AND, OR, and NOT to distinguish them from the regular words, in Python you simply write these in the lower case. So for the first example above you would write <code>True and True</code> instead, hopefully that’s clear. If you manage to get any of that wrong Python will give you a syntax error(basically a wording/grammar error for computers).</p>
+<p>Try heading to <a href="https://www.pythonanywhere.com/try-ipython/" target="_blank">IPython</a> again and messing around with True and False. Before you go however I’ll need to tell you how to do this in Python. In Python you must type True exactly like I just have, i.e. it must have a capital T, False must also have a capital F. Furthermore, in this guide I have and will continue to capitalise AND, OR, and NOT to distinguish them from the regular words, in Python you simply write these in the lower case. So for the first example above you would write <code>True and True</code> instead, hopefully that’s clear. If you manage to get any of that wrong Python will give you a syntax error (basically a wording/grammar error for computers).</p>
 
 <p>Back? Ok, hopefully you managed to replicate my examples above and get the same results. Don’t worry if you accidentally put in a string or integer instead of True or False and got some unexpected results. Python can also use AND, OR, and NOT on many other data types but that is beyond the scope of this guide.</p>
 
@@ -200,6 +235,8 @@ For the rest of you, let us continue.</p>
 
 <p>Notice the “print” in the code above? That’s a function (these will be explained in a later post) that puts the text within it onto the screen. You can try typing this into <a href="https://www.pythonanywhere.com/try-ipython/" target="_blank">IPython</a>, in order to type a new line without IPython executing the code straight away press <kbd>shift + Enter</kbd> you’ll then need to press <kbd>Enter</kbd> twice again after the last line in the body of the if statement in order to execute it.</p>
 
+<p>Another thing I should probably explain is the indentation, in Python we use indentation to tell Python that something is contained within something else. In this case the line <code>print("This should print")</code> is within the If statement, that means that it will only ever exectute if the If statement ends up being True (which is the case for the above example). If we were to write the line <code>print("This should print")</code> in the same place but not indented it would always print regardless of whether the If statement evaluated to be True.</p>
+
 <p>If you were to swap the “True” with a “False” in the example above what do you think would happen? Well nothing, actually, the computer would read “if False” and decide not to execute the body and therefore not print anything to the screen.</p>
 
 <p>This alone may seem pretty useless, how are you going to do anything with this since you already know the “True” or “False” value? The answer is that we don’t ever use True or False as the condition for an if statement, instead we use an expression that evaluates to either True or False. What does that mean? Well, if I were to tell you that 1 was equal to 2 you would tell me that I’m an idiot and that that’s totally wrong. Computers are beings of few words however and would simply reply with “False”, this in turn could be used in an if statement to find something out. That previous expression translated to Python would look like <code>1 == 2</code> which would evaluate to “False”, if we used that in conjunction with an if statement we could construct (the double equals means check if these two things are the same - if so replace the whole thing with True, if not False):</p>
@@ -273,8 +310,9 @@ print("This should always print")
         </div>
     </div>
 
-</div>
-<div class="col-xs-0 col-sm-0 col-md-2"></div>
+
+    <div class="col-xs-12 col-sm-12 col-md-2"></div>
+  </div>
 </div>
 </div>
    
@@ -347,11 +385,12 @@ return Math.floor(seconds) + " seconds";
 var aDay = 24*60*60*1000;
 
 function findTimeSince(){
-
-var date = new Date("2020-08-01 14:32:00 +0100");
-document.getElementById('timeSince').innerText = timeSince(date)+" ago";
-
-
+    var date = new Date("2020-08-01 14:32:00 +0100");
+    if(timeSince(date) == "NaN"){
+      return;
+    }
+    document.getElementById('timeSince').innerText = timeSince(date)+" ago";
+    return;
 
 }
 
