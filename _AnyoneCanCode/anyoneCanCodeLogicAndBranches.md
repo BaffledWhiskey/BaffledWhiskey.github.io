@@ -9,9 +9,7 @@ imageWebsiteLink: https://unsplash.com/photos/ieic5Tq8YMk
 imageWebsiteName: Unsplash
 mainTitle: Anyone can code
 subTitle: "Learn the Basics: Logic and Branches"
-author: Max Lloyd
-authorDescription: Writes in mostly formal languages but occasionally likes to dabble with the informal
-authorImageLink: "IMG_1045-circle.jpg"
+authorID: mL1
 date: "2020-08-01T14:32:00"
 tags: [Python, Logic, Programming]
 ---

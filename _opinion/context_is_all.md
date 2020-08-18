@@ -9,9 +9,7 @@ imageWebsiteLink: https://pixabay.com/photos/fake-news-media-disinformation-2355
 imageWebsiteName: Pixabay
 mainTitle: ‘Context is all’
 subTitle: "an Atwood quote for more than just literature snobs"
-author: Mary Stenson
-authorDescription: Putting my overthinking in writing and calling it journalism
-authorImageLink: maryProfile-circle.jpg
+authorID: mS1
 date: "2020-07-21T22:25:00"
 tags: [Fake News, Research, Facts and Figures]
 ---

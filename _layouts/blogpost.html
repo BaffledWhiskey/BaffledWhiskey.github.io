@@ -53,13 +53,14 @@
     </div>
 
 
-    <div class="myCard">
-        <div class="container-fluid padding col-xl-6 col-lg-8 col-md-12 col-sm-9 col-xs-12" style="float: left;">
-          <img class="img-fluid rounded-circle" src="/assets/{{page.authorImageLink}}" style="max-height: 100px; max-width: 100px; float: left; vertical-align:middle; padding-right: 0.5rem;" loading="lazy"> 
-          <h3><strong>{{page.author}}</strong></h3>
-          <p>{{page.authorDescription}}</p>
-        </div><br>
-        </div>
+
+      {% if page.authorID == "mS1" %}
+      {% include mS1.html %}
+
+      {% elsif page.authorID == "mL1" %}
+      {% include mL1.html %}
+
+      {% endif %}
 
         <div class="shareSection padding" style="float: left;">
 

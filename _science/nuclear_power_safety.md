@@ -9,9 +9,7 @@ imageWebsiteLink: https://unsplash.com/s/photos/nuclear?utm_source=unsplash&amp;
 imageWebsiteName: Unsplash
 mainTitle: Nuclear Power
 subTitle: "the only way to save our planet"
-author: Max Lloyd
-authorDescription: Writes in mostly formal languages but occasionally likes to dabble with the informal
-authorImageLink: "IMG_1045-circle.jpg"
+authorID: mL1
 date: "2020-07-20T21:31:00"
 desc: "Nuclear Energy has almost become synonymous with danger and disease due to popular television shows such as"
 tags: [Nuclear, Green Energy, Climate Change]

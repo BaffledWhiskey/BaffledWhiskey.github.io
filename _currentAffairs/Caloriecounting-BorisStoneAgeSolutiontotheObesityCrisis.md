@@ -9,9 +9,7 @@ imageWebsiteLink: https://unsplash.com/s/photos/diet?utm_source=unsplash&amp;utm
 imageWebsiteName: Unsplash
 mainTitle: CALORIE COUNTING
 subTitle: "BORIS’ STONE AGE SOLUTION TO THE OBESITY CRISIS"
-author: Mary Stenson
-authorDescription: Putting my overthinking in writing and calling it journalism
-authorImageLink: maryProfile-circle.jpg
+authorID: mS1
 date: "2020-08-01T14:35:00"
 tags: [Politics, Food]
 ---

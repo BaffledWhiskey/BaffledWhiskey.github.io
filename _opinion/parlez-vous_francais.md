@@ -9,9 +9,7 @@ imageWebsiteLink: https://www.freeimages.com/photo/guidebooks-1425706
 imageWebsiteName: Free Images
 mainTitle: Parlez-vous français ? Sprechen Sie Deutsch ? ¿Habla español?
 subTitle: "Of course you don’t- you’re English!"
-author: Mary Stenson
-authorDescription: Putting my overthinking in writing and calling it journalism
-authorImageLink: maryProfile-circle.jpg
+authorID: mS1
 date: "2020-07-21T22:25:00"
 tags: [Languages, Teaching, Manners]
 ---
