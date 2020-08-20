@@ -12,6 +12,7 @@ subTitle: "BORIS’ STONE AGE SOLUTION TO THE OBESITY CRISIS"
 authorID: mS1
 date: "2020-08-01T14:35:00"
 tags: [Politics, Food]
+desc: Boris' new plans for tackling the obesity crisis are ill informed at best and damaging at worst
 ---
 <!--- dateCreated must be of the format YYYY-MM-DDThh:mm:ss --->
 

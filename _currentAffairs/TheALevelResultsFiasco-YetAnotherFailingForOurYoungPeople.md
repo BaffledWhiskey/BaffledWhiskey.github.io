@@ -12,6 +12,7 @@ subTitle: "YET ANOTHER FAILING FOR OUR YOUNG PEOPLE"
 authorID: mS1
 date: "2020-08-18T21:16:00"
 tags: [A Levels, Results, Grades, Education]
+desc: A different take on the A Level Algorithm that may make you reconsider
 ---
 
 A Level results day is arguably the most nail-biting moment up to that point in the life of a 17 or 18-year-old. You thought your GCSE results day was terrifying enough but now your uni place, something that could dictate the rest of your career, is dependent on three little letters. The demon that is clearing looms over you as you refresh UCAS track, hoping and praying that your teacher accurately predicted the future. This year, however, the fate of A Level students was mostly out of their control, instead in the hands of an algorithm. The resulting outcry has been unavoidable in the media, whether you know someone who collected their results on Thursday or not. However, with public frustration towards the government’s handling of the pandemic and other issues continuously mounting, were A Level results really all that unfair or is it just another tired case of media sensationalism?

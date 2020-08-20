@@ -13,6 +13,7 @@ authorID: mL1
 date: "2020-07-20T21:31:00"
 desc: "Nuclear Energy has almost become synonymous with danger and disease due to popular television shows such as"
 tags: [Nuclear, Green Energy, Climate Change]
+desc: Nuclear energy is actually far safer than you might think...
 ---
 
 Nuclear Energy has almost become synonymous with danger and disease due to popular television shows such as HBO's <a href="https://www.youtube.com/watch?v=s9APLXM9Ei8">Chernobyl</a>. If you were to judge nuclear energy purely on the perspectiveof these shows, you would probably think that nuclear power is a really bad idea and we should just demolish all nuclear plants right away. I wish instead to demolish your potential misconseptions on the topic... Not demolish any reactors.

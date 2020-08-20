@@ -12,6 +12,7 @@ subTitle: "LEARN THE BASICS: SETUP AND VARIABLES"
 authorID: mL1
 date: "2020-07-29T16:32:00"
 tags: [Python, Programming, Code, Easy]
+desc: Jump into programming with this easy introduction
 ---
 
 Programming is a skill integral to the modern world, pretty much everything we use today has some form of computer chip in it. From microwave ovens to data centers, software is key to making these things run smoothly. This series is meant to be an introduction to programming for those who have no prior experience - veterans you should probably go elsewhere.

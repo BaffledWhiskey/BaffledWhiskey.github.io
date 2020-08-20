@@ -12,6 +12,7 @@ subTitle: "an Atwood quote for more than just literature snobs"
 authorID: mS1
 date: "2020-07-21T22:25:00"
 tags: [Fake News, Research, Facts and Figures]
+desc: In a world of fake news it is more important than ever to fact check and research
 ---
 
 

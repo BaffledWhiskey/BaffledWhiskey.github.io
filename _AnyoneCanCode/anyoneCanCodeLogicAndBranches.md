@@ -12,6 +12,7 @@ subTitle: "Learn the Basics: Logic and Branches"
 authorID: mL1
 date: "2020-08-01T14:32:00"
 tags: [Python, Logic, Programming]
+desc: Learn how basic logic and branching instructions work
 ---
 
 
