@@ -12,6 +12,7 @@ subTitle: "Of course you don’t- you’re English!"
 authorID: mS1
 date: "2020-07-21T22:25:00"
 tags: [Languages, Teaching, Manners]
+desc: Why languages are important, especially in a post-Brexit Britain
 ---
 
 Predictable from a linguist, I know. But hear me out. Think about the last time you went abroad on holiday, how many people did you encounter that couldn’t or wouldn’t speak English to you? Probably not very many. It’s a common joke that when British people go abroad that their solution to a language barrier is to speak English slowly and loudly. It feels as though it’s gotten to the point that Europeans have grown so sick of this that they speak English to you before you even speak to them first, as if they can smell the arrogance on us.
