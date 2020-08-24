@@ -21,12 +21,12 @@ Programmers use a wide variety of data types and data structures all the time, w
 <br>
 <h3>Data Types</h3>
 
-In Python we can check the data type of a varibale using the <code>type()</code> function, this means that if you put anything inside the brackets of <code>type()</code> Python will tell you what type it is. Try this out in <a href="https://www.pythonanywhere.com/try-ipython/" target="_blank">IPython</a> with the examples below. Note: this is not a complete list, there are more data types than I will show you however they are beyond the scope of this guide.
+In Python we can check the data type of a variable using the <code>type()</code> function, this means that if you put anything inside the brackets of <code>type()</code> Python will tell you what type it is. Try this out in <a href="https://www.pythonanywhere.com/try-ipython/" target="_blank">IPython</a> with the examples below. Note: this is not a complete list, there are more data types than I will show you however they are beyond the scope of this guide.
 
 <br>
 <h4>Integer</h4>
 
-An integer (int) is simply a whole number, any whole number. So for example <span style="color: red;">1</span> or <span style="color: red;">2</span> would be an integer whereas <span style="color: red;">1.2</span> would not be. In Python you can make an integer of any length, this means that the number <span style="color: red;">1020228486040293759727191037576</span> would be accepted by Python as an integer and no errors will come your way, this is not necessarily the case for all languages but for us right now that doesn't matter.
+An integer (int) is simply a whole number, any whole number. So for example <span style="color: red;">1</span> or <span style="color: red;">2</span> would be an integer whereas <span style="color: red;">1.2</span> would not be. In Python you can make an integer of any length, this means that the number <span style="color: red;">1020228486040293759791037576</span> would be accepted by Python as an integer and no errors will come your way, this is not necessarily the case for all languages but for us right now that doesn't matter.
 
 <br>
 <h4>Float</h4>
@@ -58,7 +58,7 @@ A data structure is a collection of data organised in such a way to make it easi
 <br>
 <h4>List</h4>
 
-A list is a collection of data under a single name, you can think of it exactly like you would with a list in the real world. This is probably the most common data structure in programming, used to collect and store data. In Python it is defined like any other variable (<a href="/articles/AnyoneCanCode/anyoneCanCodeSetupAndVariables/">click here</a> to remind yourself about those if needed). The key difference being you use square brackets to indicate you are working with a list, the square brackets surround the list items and each item is seperated by a comma. This would look like: <code>nameoflist = ["listItem1","listitem2","listitem3"]</code>. In Python we can put any type of data inside a list, we can even put different types in the same list, for example you can have a single list containing ints floats and strings at the same time, this is not the case for all languages however.
+A list is a collection of data under a single name, you can think of it exactly like you would with a list in the real world. This is probably the most common data structure in programming, used to collect and store data. In Python it is defined like any other variable (<a href="/articles/AnyoneCanCode/anyoneCanCodeSetupAndVariables/">click here</a> to remind yourself about those if needed). The key difference being you use square brackets to indicate you are working with a list, the square brackets surround the list items and each item is seperated by a comma. This would look like: <code>nameoflist = ["listItem1", "listitem2", "listitem3"]</code>. In Python we can put any type of data inside a list, we can even put different types in the same list, for example you can have a single list containing ints floats and strings at the same time, this is not the case for all languages however.
 
 In order to access a certain list item you use square brackets notation, this is where you write square brackets containing the index of the list item you want to access immediately following the name of the list. Maybe an example would make this clearer, remember the list called "nameoflist" that I defined above? Well if I wanted to access the first item in that list I would write <code>nameoflist[0]</code>. You may be wondering why I have asked for the 0th element in the list, this is because programmers count from 0 - so the 0th element of a list is actually the 1st element of the list. In order to access the second element in the list you would then ask for the 1th element (I say oneth to distinguish between 1th and 1st as they aren't the same thing) so therefore you would write <code>nameoflist[1]</code>.
 
@@ -69,7 +69,7 @@ Note: you may hear of another list esque data structure called an array, the key
 <br>
 <h4>Tuple</h4>
 
-A Tuple is similar to a list with the only difference being it is immutable, this means that it cannot be changed (a list is mutable and therefore can be changed - mutable for mutation). These may not seem useful at first but they're often used for creating pairs of data that you do not want changed at all during the programs execution. The way you define a tuple is by using normal brackets, an example would be: <code>nameoftuple = ("item1","item2","item3")</code>. Accessing data from it is exactly the same as a list so to get the first item from this example you would write <code>nameoftuple[0]</code>.
+A Tuple is similar to a list with the only difference being it is immutable, this means that it cannot be changed (a list is mutable and therefore can be changed - mutable for mutation). These may not seem useful at first but they're often used for creating pairs of data that you do not want changed at all during the programs execution. The way you define a tuple is by using normal brackets, an example would be: <code>nameoftuple = ("item1", "item2", "item3")</code>. Accessing data from it is exactly the same as a list so to get the first item from this example you would write <code>nameoftuple[0]</code>.
 
 <br>
 <h4>Dictionary</h4>
