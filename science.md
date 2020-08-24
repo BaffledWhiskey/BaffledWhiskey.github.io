@@ -7,7 +7,8 @@ title: "Science - "
 
 <div class="container-fluid padding">
 <div class="row text-center padding">
-{% for blogPost in site.science %}
+{% assign sorted = site.science | reverse %}
+{% for blogPost in sorted %}
 
 <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="imageText padding">

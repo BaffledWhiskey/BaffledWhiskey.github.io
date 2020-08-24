@@ -8,7 +8,8 @@ title: "Opinion - "
 
 <div class="container-fluid padding">
 <div class="row text-center padding">
-{% for blogPost in site.opinion %}
+{% assign sorted = site.opinion | reverse %}
+{% for blogPost in sorted %}
 
 <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="imageText padding">
