@@ -26,7 +26,7 @@ In Python we can check the data type of a varibale using the <code>type()</code>
 <br>
 <h4>Integer</h4>
 
-An integer (int) is simply a whole number, any whole number. So for example <span style="color: red;">1</span> or <span style="color: red;">2</span> would be an integer whereas <span style="color: red;">1.2</span> would not be. In Python you can make an integer of any length, this means that the number <span style="color: red;">102022848604029375972719106038937576</span> would be accepted by Python as an integer and no errors will come your way, this is not necessarily the case for all languages but for us right now that doesn't matter.
+An integer (int) is simply a whole number, any whole number. So for example <span style="color: red;">1</span> or <span style="color: red;">2</span> would be an integer whereas <span style="color: red;">1.2</span> would not be. In Python you can make an integer of any length, this means that the number <span style="color: red;">1020228486040293759727191037576</span> would be accepted by Python as an integer and no errors will come your way, this is not necessarily the case for all languages but for us right now that doesn't matter.
 
 <br>
 <h4>Float</h4>
