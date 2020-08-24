@@ -10,7 +10,7 @@ imageWebsiteName: Unsplash
 mainTitle: Anyone can code
 subTitle: "Learn the Basics: Data Types and Data Structures"
 authorID: mL1
-date: "2020-08-24T15:16:00"
+date: "2020-08-24T15:30:00"
 tags: [Python, Data, Programming]
 ---
 
