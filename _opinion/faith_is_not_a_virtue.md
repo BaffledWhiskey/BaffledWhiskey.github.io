@@ -10,7 +10,7 @@ imageWebsiteName: Unsplash
 mainTitle: Faith is not a virtue
 subTitle: "it is an archaic method for seeking truth"
 authorID: mL1
-date: "2020-09-18T14:25:00"
+date: "2020-09-18T13:25:00"
 tags: [Belief, Post-Fact, Scientific Method, Religion]
 desc: Faith, what is is and why you shouldn't use it...
 ---
