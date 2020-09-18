@@ -11,7 +11,6 @@ mainTitle: Nuclear Power
 subTitle: "the only way to save our planet"
 authorID: mL1
 date: "2020-07-20T21:31:00"
-desc: "Nuclear Energy has almost become synonymous with danger and disease due to popular television shows such as"
 tags: [Nuclear, Green Energy, Climate Change]
 desc: Nuclear energy is actually far safer than you might think...
 ---
