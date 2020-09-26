@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta property="og:image" content="/assets/{{page.imageurl}}"/>
+
+  <meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="{{page.title}}">
+    <meta name="twitter:description" content="{{page.desc}}">
+    <meta name="twitter:image" content="https://molybdenum.uk/assets/{{page.imageurl}}">
+
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{page.title}} - Molybdenum</title>
+    <link rel="stylesheet" href="/bootstrap-4.5.0-dist/css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link href="/style.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/44381eb229.js" crossorigin="anonymous"></script>
+
+    <meta name="google-site-verification" content="cnUWoZCeGK0DsZFaLnYQG7M3dc0hbLqSjY3ZG9X9Mt0" />
+
+    <link rel="icon" href="/assets/molybdenumM.png">
+    
+
+</head>
+<body onload="findTimeSince()">
+    
+   {% include navbar.html %}
+
+
+
+
+    
+    <div class="mainPage">
+
+        <div class="container-fluid padding">
+            <div class="row padding">
+              <div class="col-xs-0 col-sm-0 col-md-2"></div>
+      
+              <div class="col-xs-12 col-sm-12 col-md-8">
+                
+        <div class="imgCont padding">
+        <img src="/assets/{{page.imageurl}}" style='height: auto; width: 90%; object-fit: contain' loading="eager">
+        <div>
+        <span>Photo by <a href="{{page.imageAuthorLink}}">{{page.imageAuthorName}}</a> on 
+            <a href="{{page.imageWebsiteLink}}">{{page.imageWebsiteName}}</a></span>
+        </div>
+        </div>
+
+        <div class="timeSince" id="timeSince"></div>
+
+    <div class="blogTitle">
+      <h3>
+          {{page.mainTitle}}
+          <small class="text-muted padding">{{page.subTitle}}</small>
+      </h3><br>
+    </div>
+
+
+
+      {% if page.authorID == "mS1" %}
+      {% include mS1.html %}
+
+      {% elsif page.authorID == "mL1" %}
+      {% include mL1.html %}
+
+      {% endif %}
+
+        <div class="shareSection padding" style="float: left;">
+
+          <div class="container-fluid padding">
+            {% for tag in page.tags %}
+
+            <span class="badge badge-pill badge-info">{{tag}}</span>
+
+            {% endfor %}
+          </div>
+          <div class="container-fluid padding">
+
+            <h6 style="color: #a1a1a1;">Share</h6>
+            
+            <a class="twitterLink"
+              href="https://twitter.com/share?url=molybdenum.uk{{page.url}}&text=Check out this blog post from Molybdenum: ">
+              <i class="fab fa-twitter fa-3x"></i></a>
+
+            
+            <a class="facebookLink" href="https://www.facebook.com/sharer/sharer.php?u=molybdenum.uk{{page.url}}" target="_blank">
+              <i class="fab fa-facebook fa-3x"></i>
+            </a>
+            
+          </div>
+        </div>
+
+        <div class="mainText" style="float: left;">
+
+          
+
+        {{content}}
+
+        </div>
+    </div>
+
+
+    <div class="col-xs-12 col-sm-12 col-md-2"></div>
+  </div>
+</div>
+</div>
+   
+
+{% include footer.html %}
+</body>
+
+
+
+</html>
+
+<script>
+
+function timeSince(date) {
+
+var seconds = Math.floor((new Date() - date) / 1000);
+
+var interval = Math.floor(seconds / 31536000);
+
+if (interval > 1) {
+  return interval + " years";
+}
+interval = Math.floor(seconds / 2592000);
+if (interval > 1) {
+  return interval + " months";
+}
+interval = Math.floor(seconds / 86400);
+if (interval > 1) {
+  return interval + " days";
+}
+interval = Math.floor(seconds / 3600);
+if (interval > 1) {
+  return interval + " hours";
+}
+interval = Math.floor(seconds / 60);
+if (interval > 1) {
+  return interval + " minutes";
+}
+return Math.floor(seconds) + " seconds";
+}
+var aDay = 24*60*60*1000;
+
+function findTimeSince(){
+    var date = new Date("{{page.date}}");
+    if(timeSince(date) === "NaN seconds"){
+      return;
+    }else{
+      document.getElementById('timeSince').innerText = timeSince(date)+" ago";
+      return;
+    }
+    
+
+}
+
+</script>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "AnyoneCanCode - "
+title: "Anyone Can Code - "
 ---
 
 <h2>Anyone Can Code</h2>

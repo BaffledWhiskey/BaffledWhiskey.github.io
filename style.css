@@ -182,6 +182,9 @@ samp{
    .codeBlocksm pre{
        margin-left: 0%;
    }
+   .topicHeaderL h2{
+       font-size: 1.2rem;
+   }
 }
 
 @media (min-width: 576px) {
@@ -218,6 +221,9 @@ samp{
     }
     .codeBlocksm{
         font-size: 0.8rem;
+    }
+    .topicHeaderL h2{
+        font-size: 2rem;
     }
  
 }

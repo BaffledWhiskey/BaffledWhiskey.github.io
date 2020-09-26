@@ -16,3 +16,7 @@ collections:
   science:
     output: true
     permalink: /articles/:collection/:path/
+
+  deutschlandDiaries:
+    ouput: true
+    permalink: /articles/:collection/:path/
