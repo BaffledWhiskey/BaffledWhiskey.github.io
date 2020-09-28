@@ -1,0 +1,25 @@
+I"�<p>Since the release of the NHS Covid-19 app the internet has (as per ususal) been awash with ridiculous conspiracies questioning it’s privacy and integrity. With the UK in the midst of a second wave it is crucial we all play our part to bring the cases back down and prevent more unnecceary deaths and attempt to salvage what’s left of the economy. This article aims to dispel a few of the concerns you might have about the app and to explain a bit about how it works.</p>
+
+<p>First things first, how does it work? The app uses something called the <a href="https://www.google.com/covid19/exposurenotifications/" target="_blank">Exposure Notification System</a> which is an API written by both Google and Apple to securely track and trace those who have come into contact with a positive case. An API is simply a piece of software that is designed to be used by other devolopers in order to achieve a specific goal (such as tracking cases). This means that the bulk of the functionality for the app comes from the <a href="https://www.google.com/covid19/exposurenotifications/" target="_blank">Exposure Notification System</a> and very little is handled by the app itself.</p>
+
+<p>The <a href="https://www.google.com/covid19/exposurenotifications/" target="_blank">Exposure Notification System</a> maintains your privacy in a couple of ways. Firstly it does not track your location, you read correctly, no GPS tracking.</p>
+
+<section class="glue-page module-download glue-mod-spacer-0-bottom glue-mod-spacer-4-top">
+    <div class="glue-grid">
+     <div class="glue-grid__col glue-grid__col--span-0-md glue-grid__col--span-2-lg glue-grid__col--span-3-xl">
+     </div>
+     <div class="download-content glue-grid__col glue-grid__col--span-8 glue-grid__col--span-12-md glue-grid__col--span-6-xl glue-mod-text-left">
+      <h3 class="headline glue-headline glue-headline--headline-4">Download your local health authority’s app that uses Exposure Notifications</h3>
+      <div class="images"><a href="https://play.google.com/store/apps/details?id=uk.nhs.covid19.production&amp;utm_source=global_OO&amp;utm_medium=oth&amp;utm_content=Jun2520&amp;utm_campaign=ens&amp;pcampaignid=MKT-PR-global-none-0000000-OO-oth-ap-ens-Jun2520-Other-web_edu" target="_blank" title="Get it on Google Play"><picture>
+         <!--[if IE 9]><video style="display: none;"><![endif]-->
+         <source srcset="https://lh3.googleusercontent.com/_bhkXBUvm65bL4YPTeC0adVJyHcE9gwzmgbBP7Xx1oCDV_xdsrmcXHi4hj3KHYBZ01VSsYnQmXYkUjpaOfZH-G0bYxE67NOuaq3o=w187-rp, https://lh3.googleusercontent.com/_bhkXBUvm65bL4YPTeC0adVJyHcE9gwzmgbBP7Xx1oCDV_xdsrmcXHi4hj3KHYBZ01VSsYnQmXYkUjpaOfZH-G0bYxE67NOuaq3o=w374-rp 2x" />
+         
+         <!--[if IE 9]></video><![endif]--><img alt="Get it on Google Play" class="image-google-play" src="https://lh3.googleusercontent.com/_bhkXBUvm65bL4YPTeC0adVJyHcE9gwzmgbBP7Xx1oCDV_xdsrmcXHi4hj3KHYBZ01VSsYnQmXYkUjpaOfZH-G0bYxE67NOuaq3o=w187-rp" /></picture></a><a href="https://apps.apple.com/us/app/id1520427663" target="_blank" title="Download on the App Store"><picture>
+         <!--[if IE 9]><video style="display: none;"><![endif]-->
+         <source srcset="https://lh3.googleusercontent.com/Q7PBEUyq-1A9BHvy0KlvPFz7NE2PdOlDxzGAvnnQFmjdPXIzlHyvxCp6cpiZW3bboARdjXQf0HhFgpGl-rTC58c7f2xdM-wgI8BMCg=w165-rp, https://lh3.googleusercontent.com/Q7PBEUyq-1A9BHvy0KlvPFz7NE2PdOlDxzGAvnnQFmjdPXIzlHyvxCp6cpiZW3bboARdjXQf0HhFgpGl-rTC58c7f2xdM-wgI8BMCg=w330-rp 2x" />
+         
+         <!--[if IE 9]></video><![endif]--><img alt="Download on the App Store" class="image-app-store" src="https://lh3.googleusercontent.com/Q7PBEUyq-1A9BHvy0KlvPFz7NE2PdOlDxzGAvnnQFmjdPXIzlHyvxCp6cpiZW3bboARdjXQf0HhFgpGl-rTC58c7f2xdM-wgI8BMCg=w165-rp" /></picture></a></div>
+     </div>
+    </div>
+   </section>
+:ET
