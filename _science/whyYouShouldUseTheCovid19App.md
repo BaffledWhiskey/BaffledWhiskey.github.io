@@ -28,3 +28,11 @@ A unique feature of the NHS app is the QR code scanner for locations visited. Th
 For those who claim they don't want the government tracking them I hope you can see from what I have already said that they are unable to. Furthermore, if you are really that concerned about being tracked may I suggest you throw your iPhone or Android phone in the bin. Google, Apple and Facebook are notorious for tracking your whereabouts, they do this for numerous reasons. Some that benefit you, some that don't. They have profiles built for all of their users in order to feed you relevent ads for example. Google Maps by default tracks you all the time in order to have accurate live traffic. Personally I keep all of this turned on, I enjoy the features that I get because of it and as such I see it as worthwhile. Even if the government did track you, wouldn't it still be worth it to get this pandemic under control?
 
 It is obvious that the <a href="https://www.google.com/covid19/exposurenotifications/" target="_blank">Exposure Notification System</a> has been designed from the ground up with privacy in mind. I hope this brief explanation has put anyone on the fence at ease. This app is one of many things that will enable us to get back to our normal lives more quickly, it is therefore imperative that everyone with the means downloads this app. A test and trace system is only effective if as many people partake as possible. 
+
+<br>
+<div class="linkSection" style="text-align:center;">
+<h5>Click the links below to download</h5>
+<a href="https://apps.apple.com/gb/app/nhs-covid-19/id1520427663" class="appStoreLink" style="padding-right:50px;"><i class="fab fa-app-store fa-3x"></i></a>
+
+<a href="https://play.google.com/store/apps/details?id=uk.nhs.covid19.production" class="googlePlayLink"><i class="fab fa-google-play fa-3x"></i></a>
+</div>

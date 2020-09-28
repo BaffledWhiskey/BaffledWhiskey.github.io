@@ -136,6 +136,19 @@ samp{
     font-size: 1rem;
 }
 
+.appStoreLink{
+    color: #0384fc !important;
+}
+.appStoreLink:hover{
+    color: #57aeff !important;
+}
+.googlePlayLink{
+    color: #0339fc !important;
+}
+.googlePlayLink:hover{
+    color: #577bff !important;
+}
+
 @media(max-width: 576px){
     .title{
         height: 3rem;
@@ -185,6 +198,9 @@ samp{
    .topicHeaderL h2{
        font-size: 1rem;
    }
+   .linkSection h5{
+       font-size: 0.6rem;
+   }
 }
 
 @media (min-width: 576px) {
@@ -225,6 +241,9 @@ samp{
     .topicHeaderL h2{
         font-size: 2rem;
     }
+    .linkSection h5{
+        font-size: 0.9rem;
+    }
  
 }
 @media (min-width: 768px) {
@@ -248,6 +267,9 @@ samp{
         width: 70%;
     }
     .codeBlock{
+        font-size: 1rem;
+    }
+    .linkSection h5{
         font-size: 1rem;
     }
     
