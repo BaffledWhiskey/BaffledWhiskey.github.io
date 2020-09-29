@@ -1,0 +1,63 @@
+I"<div class="container-fluid padding" style="text-align: center; position: absolute; bottom:10%;">
+    <div class="row text-center padding" style="display: inline-block;">
+        <h3>
+            Mailing List<br />
+            <small class="text-muted padding">Please enter your email below to be notified of new articles!</small>
+        </h3><br />
+        <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email" />
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</div>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBBJGZrmvgzrCAho6l5ibSzwBiVy3a8AjM",
+    authDomain: "mailinglist-9d0a1.firebaseapp.com",
+    databaseURL: "https://mailinglist-9d0a1.firebaseio.com",
+    projectId: "mailinglist-9d0a1",
+    storageBucket: "mailinglist-9d0a1.appspot.com",
+    messagingSenderId: "298818902657",
+    appId: "1:298818902657:web:cd3537105b62b2f723cb80"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script>
+function saveToFirebase(email) {
+    var emailObject = {
+        email: email
+    };
+
+    firebase.database().ref('subscription-entries').push().set(emailObject)
+        .then(function(snapshot) {
+            success(); // some success method
+        }, function(error) {
+            console.log('error' + error);
+            error(); // some error method
+        });
+}
+
+function error(){
+    alert("Error");
+}
+
+function success(){
+    alert("woohoo!");
+}
+
+saveToFirebase(email);
+</script>
+
+:ET

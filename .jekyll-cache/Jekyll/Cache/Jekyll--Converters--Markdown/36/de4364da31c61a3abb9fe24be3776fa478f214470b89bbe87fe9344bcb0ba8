@@ -1,0 +1,16 @@
+I"<div class="container-fluid padding" style="text-align: center; position: absolute; top:45%;">
+    <div class="row text-center padding" style="display: inline-block;">
+        <h3>
+            Mailing List<br />
+            <small class="text-muted padding">Please enter your email below to be notified of new articles!</small>
+        </h3><br />
+        <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  
+    </div>
+</div>
+:ET
