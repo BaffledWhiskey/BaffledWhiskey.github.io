@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Mailing List - "
 ---
 
 
@@ -20,7 +21,7 @@ layout: default
     <label class="form-control-label" for="exampleInputEmail1">Email address</label>
     </div>
     <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small><br>
   <button type="submit" class="btn btn-primary" onclick="saveToFirebase(document.getElementById('inputEmail').value)">Submit</button>
     </div>
 </div>
