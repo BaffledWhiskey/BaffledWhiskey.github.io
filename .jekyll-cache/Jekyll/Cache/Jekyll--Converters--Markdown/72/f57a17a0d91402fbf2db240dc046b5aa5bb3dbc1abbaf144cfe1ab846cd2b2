@@ -1,4 +1,4 @@
-I"1<div class="alert alert-dismissible alert-danger">
+I"Ã<div class="alert alert-dismissible alert-danger">
   <button type="button" class="close" data-dismiss="alert">&times;</button>
   <div style="text-align: center;">
   <strong>Hey There!</strong> <span style="font-weight: 900; color: #00ab14;">Welcome to our new mailing list page!</span> This is currently up and running however we have not built the actual mailing bot just yet, consider this a pre-subscription of sorts, feel free to add your email!
@@ -47,11 +47,13 @@ function saveToFirebase(email) {
 }
 
 function error(){
+    document.getElementById('inputEmail').classList.remove("is-valid");
     document.getElementById('inputEmail').classList.add("is-invalid");
     return;
 }
 
 function success(){
+    document.getElementById('inputEmail').classList.remove("is-invalid");
     document.getElementById('inputEmail').classList.add("is-valid");
     flag = true;
     return;

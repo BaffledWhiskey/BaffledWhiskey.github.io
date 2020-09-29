@@ -113,11 +113,13 @@ function saveToFirebase(email) {
 }
 
 function error(){
+    document.getElementById('inputEmail').classList.remove("is-valid");
     document.getElementById('inputEmail').classList.add("is-invalid");
     return;
 }
 
 function success(){
+    document.getElementById('inputEmail').classList.remove("is-invalid");
     document.getElementById('inputEmail').classList.add("is-valid");
     flag = true;
     return;
