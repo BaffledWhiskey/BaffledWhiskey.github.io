@@ -6,7 +6,7 @@ layout: default
 <div class="alert alert-dismissible alert-danger">
   <button type="button" class="close" data-dismiss="alert">&times;</button>
   <div style="text-align: center;">
-  <strong>Oh snap!</strong> <span style="font-weight: 900; color: #00ab14;">Looks like you've found our new testing page for our email list</span> please don't submit anything as this is for testing purposes only at the moment :)
+  <strong>Hey There!</strong> <span style="font-weight: 900; color: #00ab14;">Welcome to our new mailing list page!</span> This is currently up and running however we have not built the actual mailing bot just yet, consider this a pre-subscription of sorts, feel free to add your email!
   </div>
 </div>
 
@@ -17,13 +17,55 @@ layout: default
             <small class="text-muted padding">Please enter your email below to be notified of new articles!</small>
         </h3><br>
         <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
+    <label class="form-control-label" for="exampleInputEmail1">Email address</label>
+    </div>
     <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <button type="submit" class="btn btn-primary" onclick="saveToFirebase('test@test.com')">Submit</button>
+  <button type="submit" class="btn btn-primary" onclick="saveToFirebase(document.getElementById('inputEmail').value)">Submit</button>
     </div>
 </div>
+
+
+
+<script>
+var flag = false;
+function saveToFirebase(email) {
+    if(flag){
+        alert('you have already entered a valid email address');
+        error();
+        return;
+    }
+    email = email.trim()
+    if (!email.includes('@') || !email.includes('.') || email.includes(' ')){
+        error();
+        return;
+    }
+    var emailObject = {
+        email: email
+    };
+
+    firebase.database().ref('subscription-entries').push().set(emailObject)
+        .then(function(snapshot) {
+            success(); // some success method
+        }, function(error) {
+            console.log('error' + error);
+            error(); // some error method
+        });
+}
+
+function error(){
+    document.getElementById('inputEmail').classList.add("is-invalid");
+    return;
+}
+
+function success(){
+    document.getElementById('inputEmail').classList.add("is-valid");
+    flag = true;
+    return;
+}
+</script>
+
+
 
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -47,29 +89,4 @@ layout: default
   firebase.initializeApp(firebaseConfig);
 </script>
 
-
-<script>
-function saveToFirebase(email) {
-    var emailObject = {
-        email: email
-    };
-
-    firebase.database().ref('subscription-entries').push().set(emailObject)
-        .then(function(snapshot) {
-            success(); // some success method
-        }, function(error) {
-            console.log('error' + error);
-            error(); // some error method
-        });
-}
-
-function error(){
-    alert("Error");
-}
-
-function success(){
-    alert("woohoo!");
-}
-
-saveToFirebase(email);
-</script>
+<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-database.js"></script>
