@@ -25,8 +25,3 @@ title: "Deutschland Diaries - "
 {% endfor %}
 </div>
 </div>
-
-<div class="alert alert-dismissible alert-success">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <strong>Welcome!</strong> This page has been prepared for a new series <span style="font-weight: 900; color: #FF00FF;">unfortunately there's nothing here yet</span> please check back later!
-</div>
