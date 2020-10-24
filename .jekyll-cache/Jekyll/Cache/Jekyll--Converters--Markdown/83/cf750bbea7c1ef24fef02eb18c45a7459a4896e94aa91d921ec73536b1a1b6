@@ -1,8 +1,21 @@
-I"<h2>Science</h2>
+I"á<h2>Science</h2>
 <p><br /><br /></p>
 
 <div class="container-fluid padding">
 <div class="row text-center padding">
+
+
+
+<div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="imageText padding">
+                <a href="/articles/science/CouldAComputerSolveAnyProblem/" class="hvr-grow-shadow">
+                <img src="assets/mauro-sbicego-4hfpVsi-gSg-unsplash.jpg" class="img-fluid" />
+                <span class="title"><h4>Could a Computer Solve any Problem? A shallow dive into Computability</h4></span>
+                </a>
+            </div>
+                    
+</div>
+
 
 
 

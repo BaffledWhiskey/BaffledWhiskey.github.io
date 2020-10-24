@@ -1,4 +1,4 @@
-I"ó<div class="jumbotron">
+I"µ<div class="jumbotron">
     <h1 class="display-3">Hello there!</h1>
     <p class="lead">Welcome to Molybdenum, a blog site that aims to be used by more than just me.<br />If you would like to write for this site then get in touch and send me an article you want published!
     </p>
@@ -21,18 +21,18 @@
     <div class="row text-center padding">
         <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="imageText padding">
-                <a href="/articles/currentAffairs/TheALevelResultsFiasco-YetAnotherFailingForOurYoungPeople/" class="hvr-grow-shadow">
-                <img src="assets/pexels-ketut-subiyanto-4560092.jpg" class="img-fluid" />
-                <span class="title"><h4>The A Level results fiasco- yet another failing for our young people</h4></span>
+                <a href="/articles/deutschlandDiaries/CultureShockOrCovidShock/" class="hvr-grow-shadow">
+                <img src="assets/db1.jpg" class="img-fluid" />
+                <span class="title"><h4>Deutschland Diaries 1: Culture shock or COVID shock?</h4></span>
                 </a>
             </div>
             
 </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="imageText padding">
-                <a href="/articles/opinion/faith_is_not_a_virtue/" class="hvr-grow-shadow">
-                <img src="assets/aaron-burden-TNlHf4m4gpI-unsplash-min.jpg" class="img-fluid" />
-                <span class="title"><h4>Faith is not a virtue: it is an archaic method for seeking truth</h4></span>
+                <a href="/articles/science/CouldAComputerSolveAnyProblem/" class="hvr-grow-shadow">
+                <img src="assets/mauro-sbicego-4hfpVsi-gSg-unsplash.jpg" class="img-fluid" />
+                <span class="title"><h4>Could a Computer Solve any Problem? A shallow dive into Computability</h4></span>
                 </a>
             </div>
             
