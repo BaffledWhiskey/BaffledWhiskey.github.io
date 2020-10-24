@@ -11,7 +11,7 @@ mainTitle: Could a Computer Solve any Problem?
 subTitle: "A shallow dive into Computability"
 authorID: mL1
 date: "2020-10-24T11:45:00"
-tags: [Computer Science, Alogirthms, Theory, Turing]
+tags: [Computer Science, Algorithms, Theory, Turing]
 desc: "An introduction into the world of Computability"
 ---
 
