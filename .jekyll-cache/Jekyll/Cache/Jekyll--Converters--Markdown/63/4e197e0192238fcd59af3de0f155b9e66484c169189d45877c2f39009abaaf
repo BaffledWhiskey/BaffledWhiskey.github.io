@@ -1,8 +1,21 @@
-I"<h2>Current Affairs</h2>
+I"<h2>Current Affairs</h2>
 <p><br /><br /></p>
 
 <div class="container-fluid padding">
 <div class="row text-center padding">
+
+
+
+<div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="imageText padding">
+                <a href="/articles/currentAffairs/dearMen/" class="hvr-grow-shadow">
+                <img src="assets/frederico-almeida-80-IGI1mr24-unsplash-min.jpg" class="img-fluid" />
+                <span class="title"><h4>Dear Men</h4></span>
+                </a>
+            </div>
+                    
+</div>
+
 
 
 

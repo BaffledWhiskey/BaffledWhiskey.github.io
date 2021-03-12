@@ -1,4 +1,4 @@
-I"´<div class="jumbotron">
+I"q<div class="jumbotron">
     <h1 class="display-3">Hello there!</h1>
     <p class="lead">Welcome to Molybdenum, a blog site that aims to be used by more than just me.<br />If you would like to write for this site then get in touch and send me an article you want published!
     </p>
@@ -30,9 +30,9 @@
 </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="imageText padding">
-                <a href="/articles/science/CouldAComputerSolveAnyProblem/" class="hvr-grow-shadow">
-                <img src="assets/john-cameron-QtAGmfK8qYM-unsplash.jpg" class="img-fluid" />
-                <span class="title"><h4>Could a Computer Solve any Problem? A shallow dive into Computability</h4></span>
+                <a href="/articles/currentAffairs/dearMen/" class="hvr-grow-shadow">
+                <img src="assets/frederico-almeida-80-IGI1mr24-unsplash-min.jpg" class="img-fluid" />
+                <span class="title"><h4>Dear Men</h4></span>
                 </a>
             </div>
             
