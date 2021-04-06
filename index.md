@@ -5,10 +5,12 @@ layout: default
 
 <div class="jumbotron">
     <h1 class="display-3">Hello there!</h1>
-    <p class="lead">Welcome to Molybdenum, a blog site that aims to be used by more than just me.<br>If you would like to write for this site then get in touch and send me an article you want published!
+    <p class="lead">Welcome to Molybdenum!<br>If you would like to write for this site then get in touch and send me an article you want published!
     </p>
     <hr class="my-4">
-    <p>If this takes off I may also be looking for other devs to help out, not at the moment though so only writers for the time being please :)</p>
+    <p>Molybdenum has been designed to be easy to expand so don't worry about needing any technical knowledge.
+    <br>The whole project is pretty simple and open source (don't expect frequent updates since I'm a full time student)
+    <br>GitHub link in the footer</p>
     <p class="lead">
       <a class="btn btn-primary btn-lg" href="#Footer" role="button">Get in touch</a>
     </p>
