@@ -1,8 +1,8 @@
-I"m<p><span class="badge badge-pill badge-warning">Beta</span></p>
+I"é<p><span class="badge badge-pill badge-warning">Beta</span></p>
 <div class="alert alert-dismissible alert-info">
   <button type="button" class="close" data-dismiss="alert">&times;</button>
   <div style="text-align: center;">
-  <strong>Hey There!</strong> <span style="font-weight: 900; color: #00ab14;">Welcome to our new mailing list page!</span> It is now in Beta (expect changes) but feel free to sign up now! :)
+  <strong>Hey There!</strong> <span style="font-weight: 900; color: #00ab14;">Welcome to our new mailing list page!</span> Unfortunately it is down for maintainance at the moment, please come back later.
   </div>
 </div>
 
@@ -24,8 +24,11 @@
 </div>
 
 <script>
+
+
 var flag = false;
 function saveToFirebase(email) {
+    let mails = firebase.database('https://molybdenum-85789-default-rtdb.europe-west1.firebasedatabase.app');
     if(flag){
         alert('you have already entered a valid email address');
         error();
@@ -40,7 +43,7 @@ function saveToFirebase(email) {
         email: email
     };
 
-    firebase.database().ref('subscription-entries').push().set(emailObject)
+    mails.ref('subscription-entries').push().set(emailObject)
         .then(function(snapshot) {
             success(); // some success method
         }, function(error) {
@@ -64,12 +67,12 @@ function success(){
 </script>
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+<!-- <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
 
-<script>
+<!-- <script>
   // Your web app's Firebase configuration
   var firebaseConfig = {
     apiKey: "AIzaSyBBJGZrmvgzrCAho6l5ibSzwBiVy3a8AjM",
@@ -84,6 +87,5 @@ function success(){
   firebase.initializeApp(firebaseConfig);
 </script>
 
-<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-database.js"></script>
-
+<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-database.js"></script> -->
 :ET

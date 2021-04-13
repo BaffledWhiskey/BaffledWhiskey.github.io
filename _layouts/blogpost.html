@@ -34,6 +34,8 @@
     <meta name="google-site-verification" content="cnUWoZCeGK0DsZFaLnYQG7M3dc0hbLqSjY3ZG9X9Mt0" />
 
     <link rel="icon" href="/assets/molybdenumM.png">
+
+    
     
 
 </head>
@@ -120,9 +122,23 @@
   </div>
 </div>
 </div>
+
+
+<div style="padding:2rem;">
+<h2>Comments</h2>
+<div class="input-group-append">
+<input type="text" class="form-control" placeholder="Write a Comment!" id="commentInput" style="height: 50px;"/>
+<button class="btn btn-outline-secondary" id="postComment" style="height: 50px;">Post</button>
+</div>
+<br>
+<div id="comments"></div>
+</div>
+
+<br><br>
    
 
 {% include footer.html %}
+{% include firebase.html %}
 </body>
 
 

@@ -34,6 +34,8 @@
     <meta name="google-site-verification" content="cnUWoZCeGK0DsZFaLnYQG7M3dc0hbLqSjY3ZG9X9Mt0" />
 
     <link rel="icon" href="/assets/molybdenumM.png">
+
+    
     
 
 </head>
@@ -75,7 +77,18 @@
           <a class="nav-link" href="#Footer">Contact us</a>
         </li>
       </ul>
+
+      <section id="whenSignedOut">
+      <a href='#' id="signInBtn" ><i class="fab fa-google fa-3x"></i></a>
+      </section>
       
+      <section id="whenSignedIn" hidden="true">
+        <a id="signOutBtn" href='#'>
+          <img id='profilePicture' src='' style="height: 3em; width: 3em; border-radius: 50%;"/>
+        </a>
+      </section>
+
+
     </div>
   </nav>
 
@@ -160,7 +173,7 @@
 
           
 
-        <p>No, you are not all rapists or even predators. But when <a herf="https://www.theguardian.com/world/2021/mar/10/almost-all-young-women-in-the-uk-have-been-sexually-harassed-survey-finds">97% of women in the UK have been sexually harassed</a> and most likely all women feel unsafe when alone in public, most of you will have at least inadvertently made a woman uncomfortable. Why? When you hear stories like the sickening one about Sarah Everard far too often, you learn that assuming all men could be dangerous is the easiest way to try to keep yourself safe. Those lists circulating social media about the measures women take to feel safer and those sharing their stories are not a minority being overly paranoid. What you see as a harmless compliment could easily be a precursor to assault, in our minds.</p>
+        <p>No, you are not all rapists or even predators. But when <a href="https://www.theguardian.com/world/2021/mar/10/almost-all-young-women-in-the-uk-have-been-sexually-harassed-survey-finds" target="_blank">97% of women in the UK have been sexually harassed</a> and most likely all women feel unsafe when alone in public, most of you will have at least inadvertently made a woman uncomfortable. Why? When you hear stories like the sickening one about Sarah Everard far too often, you learn that assuming all men could be dangerous is the easiest way to try to keep yourself safe. Those lists circulating social media about the measures women take to feel safer and those sharing their stories are not a minority being overly paranoid. What you see as a harmless compliment could easily be a precursor to assault, in our minds.</p>
 
 <p>Where does the mistreatment of women even come from? There’s no excuse for assault or harassment but, like every behaviour, it has its roots. I recall the shock on a boy’s face in a nightclub after he, a complete stranger to me, had shouted over at me asking for my name and my immediate response was ‘I have a boyfriend’, as if I was to assume that a stranger would shout and ask for my name to be polite when I wasn’t even near him. ‘I have a boyfriend’ is usually a more readily accepted phrase than ‘no’ or ‘I’m not interested’. Or the stranger who wolf whistled me on a dark street, despite me holding hands with my boyfriend. Or the man dancing up against me who I didn’t even know was there until my friend pulled me away. Or the drunk man who got in my personal space, close enough to touch me and grunted at me in the middle of a busy high street, in broad daylight when I was 16. I could go on but I think I’ve made my point. These men have never heard the word ‘no’ growing up so they don’t believe in boundaries. Even more men have never learned to read body language or notice when someone is uncomfortable.</p>
 
@@ -179,6 +192,19 @@
   </div>
 </div>
 </div>
+
+
+<div style="padding:2rem;">
+<h2>Comments</h2>
+<div class="input-group-append">
+<input type="text" class="form-control" placeholder="Write a Comment!" id="commentInput" style="height: 50px;"/>
+<button class="btn btn-outline-secondary" id="postComment" style="height: 50px;">Post</button>
+</div>
+<br>
+<div id="comments"></div>
+</div>
+
+<br><br>
    
 
 <footer id="Footer">
@@ -189,6 +215,7 @@
                 <hr class="light">
                 <br>
                 <p>MolybdenumBlog@gmail.com</p>
+                <a href='https://github.com/BaffledWhiskey/BaffledWhiskey.github.io/'>GitHub</a>
             </div>
             <div class="col-md-4">
                 <hr class="light">
@@ -211,6 +238,37 @@
         </div>
     </div>
     </footer>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCHKUd9PbMyPB5NNa85aQAjrxxj1SImluU",
+    authDomain: "molybdenum-85789.firebaseapp.com",
+    projectId: "molybdenum-85789",
+    storageBucket: "molybdenum-85789.appspot.com",
+    databaseURL: "https://molybdenum-85789-default-rtdb.europe-west1.firebasedatabase.app",
+    messagingSenderId: "207285557646",
+    appId: "1:207285557646:web:9a4a9bb78cb3b97bc12cdf",
+    measurementId: "G-ZG3HLW2TME"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<script src="/app.js" defer></script>
+
 </body>
 
 

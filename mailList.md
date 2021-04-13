@@ -7,7 +7,7 @@ title: "Mailing List - "
 <div class="alert alert-dismissible alert-info">
   <button type="button" class="close" data-dismiss="alert">&times;</button>
   <div style="text-align: center;">
-  <strong>Hey There!</strong> <span style="font-weight: 900; color: #00ab14;">Welcome to our new mailing list page!</span> It is now in Beta (expect changes) but feel free to sign up now! :)
+  <strong>Hey There!</strong> <span style="font-weight: 900; color: #00ab14;">Welcome to our new mailing list page!</span> We've recently made big changes to server side stuff, apologies for any errors
   </div>
 </div>
 
@@ -31,8 +31,11 @@ title: "Mailing List - "
 
 
 <script>
+
+
 var flag = false;
 function saveToFirebase(email) {
+    let mails = firebase.database();
     if(flag){
         alert('you have already entered a valid email address');
         error();
@@ -47,7 +50,7 @@ function saveToFirebase(email) {
         email: email
     };
 
-    firebase.database().ref('subscription-entries').push().set(emailObject)
+    mails.ref('subscription-entries').push().set(emailObject)
         .then(function(snapshot) {
             success(); // some success method
         }, function(error) {
@@ -69,29 +72,3 @@ function success(){
     return;
 }
 </script>
-
-
-
-
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyBBJGZrmvgzrCAho6l5ibSzwBiVy3a8AjM",
-    authDomain: "mailinglist-9d0a1.firebaseapp.com",
-    databaseURL: "https://mailinglist-9d0a1.firebaseio.com",
-    projectId: "mailinglist-9d0a1",
-    storageBucket: "mailinglist-9d0a1.appspot.com",
-    messagingSenderId: "298818902657",
-    appId: "1:298818902657:web:cd3537105b62b2f723cb80"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-</script>
-
-<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-database.js"></script>
