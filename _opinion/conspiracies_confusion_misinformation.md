@@ -9,9 +9,9 @@ imageWebsiteLink: https://unsplash.com/s/photos/conspiracy?utm_source=unsplash&u
 imageWebsiteName: Unsplash
 mainTitle: Conspiracy Theories
 subTitle: "Sinister Truths or Facile Falsities?"
-authorID: mL1s
+authorID: mL1
 date: "2021-06-17T17:20:00"
-tags: [Conspiracy theories, misinformation]
+tags: [Conspiracy theories, Misinformation]
 desc: "A deep dive into conspiracy theories, what they are and why people believe"
 ---
 
