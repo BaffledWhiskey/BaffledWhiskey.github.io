@@ -28,13 +28,11 @@ layout: default
     <div class="row text-center padding">
         <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="imageText padding">
-                <a href="/articles/opinion/conspiracies_confusion_misinformation/" class="hvr-grow-shadow">
-                <img src="assets/tarik-haiga-BxELNNMN88Y-unsplash.jpg" class="img-fluid" />
-                <span class="title"><h4>Conspiracy Theories: Sinister Truths or Facile Falsities?</h4></span>
+                <a href="/articles/opinion/break_the_bias/" class="hvr-grow-shadow">
+                <img src="assets/compressjpgpexels-pixabay-272976.jpg" class="img-fluid" />
+                <span class="title"><h4>Break the Bias - Close the Confidence Gap!</h4></span>
                 </a>
-            </div>
-            
-            
+            </div>            
 </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="imageText padding">
@@ -47,9 +45,9 @@ layout: default
 </div>
         <div class="col-sm-12 col-md-4">
             <div class="imageText padding">
-                <a href="/articles/deutschlandDiaries/CultureShockOrCovidShock/" class="hvr-grow-shadow">
-                <img src="assets/db1.jpg" class="img-fluid" />
-                <span class="title"><h4>Deutschland Diaries 1: Culture shock or COVID shock?</h4></span>
+                <a href="/articles/opinion/conspiracies_confusion_misinformation/" class="hvr-grow-shadow">
+                <img src="assets/tarik-haiga-BxELNNMN88Y-unsplash.jpg" class="img-fluid" />
+                <span class="title"><h4>Conspiracy Theories: Sinister Truths or Facile Falsities?</h4></span>
                 </a>
             </div>
         </div>

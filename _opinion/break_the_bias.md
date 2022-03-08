@@ -10,7 +10,7 @@ imageWebsiteName: Pexals
 mainTitle: Break the Bias 
 subTitle: Close the Confidence Gap!
 authorID: mS1
-date: "2022-03-21T17:00:00"
+date: "2022-03-08T17:20:00"
 tags: [International Womens Day, Confidence Gap]
 desc: How being less afraid of mistakes will lead to greater success in future
 ---
